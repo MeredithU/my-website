@@ -17,9 +17,10 @@ var paths = {
 gulp.task("default", ["sass", "minify-html"]);
 
 // Run anytime a file changes
-gulp.task("watch", ["browserSync", "sass"], function() {
+gulp.task("watch", ["browserSync", "sass", "minify-html"], function() {
 	gulp.watch(paths.scss, ["sass"]);
-	gulp.watch("src/*.html").on("change", browserSync.reload);
+	gulp.watch(paths.html, ["minify-html"]);
+	gulp.watch("dist/*.html").on("change", browserSync.reload);
 });
 
 // Spin up a server

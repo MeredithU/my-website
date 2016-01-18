@@ -1,2 +1,11 @@
 // To use for new-breakpoint()
 @import "neat-helpers";
+
+// Display visual grid
+$visual-grid: true !global;
+
+// Visual grid colour
+$visual-grid-color: #d5eefb !global;
+
+// New breakpoints
+$mobile: new-breakpoint(max-width 768px 4);

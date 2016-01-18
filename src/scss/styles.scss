@@ -1,7 +1,51 @@
 @import "bourbon";
 @import "grid-settings";
+@import "variables";
 @import "neat";
 
-h1 {
-	color: green;
+html {
+	height: 100%;
+}
+
+body {
+	background-color: $beige;
+	margin: 0;
+	height: 100%;
+
+	nav {
+		&.sidebar {
+			background-color: $white;
+			width: $sidebar-desktop-width;
+			height: 100%;
+			display: block;
+
+			box-shadow: 0 1px 3px rgba(100,100,100,0.15);
+
+			@include position(fixed, 0px null null 0px);
+			@include pad();
+
+			@include media($mobile) {
+				height: auto;
+				@include position(relative, 0px null null 0px);
+				//@include clearfix();
+				@include span-columns(4);
+			}
+		}
+	}
+
+	section {
+		&.main-content {
+			background-color: $light-gray;
+			margin-left: $sidebar-desktop-width;
+			height: 100%;
+
+			@include calc(width, "100% - #{$sidebar-desktop-width}");
+			@include pad();
+
+			@include media($mobile) {
+				margin-left: 0;
+				@include span-columns(4);
+			}
+		}
+	}
 }
