@@ -1,0 +1,92 @@
+nav {
+	&.sidebar {
+		background-color: $white;
+		width: $sidebar-desktop-width;
+		height: 100%;
+		display: block;
+		box-shadow: 0 1px 3px rgba(100, 100, 100, 0.15);
+
+		@include position(fixed, 0px null null 0px);
+		@include pad();
+
+		@include media($mobile) {
+			height: auto;
+
+			@include span-columns(4);
+			@include position(relative, 0px null null 0px);
+		}
+
+		.logo-container {
+
+			.logo {
+				display: block;
+
+		    @include size(6em auto);
+		    @include margin(3em auto);
+
+		    @include media($mobile) {
+		    	@include margin(2em auto);
+		    }
+			}
+		}
+
+		ul {
+			&.menu-items {
+				list-style: none;
+				line-height: 2.5em;
+				text-transform: uppercase;
+				font-size: 18px;
+				text-align: center;
+				padding: 0;
+				letter-spacing: .1em;
+
+				li {
+					a {
+						color: $sidebar-nav-items;
+						text-decoration: none;
+						@include transition(all 0.1s ease-in-out);
+
+						&:hover, 
+						&:active {
+							color: #3dd4a9;
+						}
+					}
+
+					@include media($mobile) {
+						padding: 5px 0;
+					}
+
+				}
+			}
+
+			&.social {
+				list-style: none;
+				text-align: center;
+
+				@include padding(25px 0);
+
+				li {
+					display: inline-block;
+
+					a {
+						color: $sidebar-nav-items;
+						@include transition(all 0.1s ease-in-out);
+
+						&:hover, 
+						&:active {
+							color: $green;
+						}
+
+						i {
+							@include padding(0 10px);
+
+							@include media($mobile) {
+								@include padding(0 25px);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
