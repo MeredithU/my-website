@@ -18,7 +18,8 @@ body {
 
 	section {
 		&.main-content {
-			background-color: $light-gray;
+			background-image: url(../asset/mac-on-desk.jpg);
+			background-size: cover;
 			font-weight: 300;
 			height: 100%;
 			margin-left: $sidebar-desktop-width;
@@ -30,6 +31,31 @@ body {
 				margin-left: 0;
 
 				@include span-columns(4);
+			}
+
+			.banner-title {
+				background-color: rgba(red($black), green($black), blue($black), 0.75);
+				text-align: center;
+
+				@include calc(width, "100% - #{$banner-title-width}");
+				@include margin(100px auto 0 auto);
+				@include pad();
+				
+				h1,
+				h3 {
+					color: $white;
+					font-weight: 300;
+					letter-spacing: .1em;
+				}
+
+				h1 {
+					font-size: 36px;
+				}
+
+				h3 {
+					font-size: 28px;
+					text-transform: uppercase;
+				}
 			}
 		}
 	}

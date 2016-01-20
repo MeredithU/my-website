@@ -109,7 +109,8 @@ body {
   margin: 0;
   height: 100%; }
   body section.main-content {
-    background-color: #eeeeee;
+    background-image: url(../asset/mac-on-desk.jpg);
+    background-size: cover;
     font-weight: 300;
     height: 100%;
     margin-left: 280px;
@@ -125,3 +126,20 @@ body {
         width: 100%; }
         body section.main-content:last-child {
           margin-right: 0; } }
+    body section.main-content .banner-title {
+      background-color: rgba(17, 17, 17, 0.75);
+      text-align: center;
+      width: -webkit-calc(100% - 30%);
+      width: calc(100% - 30%);
+      margin: 100px auto 0;
+      padding: 2.35765%; }
+      body section.main-content .banner-title h1,
+      body section.main-content .banner-title h3 {
+        color: #ffffff;
+        font-weight: 300;
+        letter-spacing: .1em; }
+      body section.main-content .banner-title h1 {
+        font-size: 36px; }
+      body section.main-content .banner-title h3 {
+        font-size: 28px;
+        text-transform: uppercase; }
