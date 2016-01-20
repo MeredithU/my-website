@@ -15,7 +15,7 @@
 ### Installation Instructions
 
 1. ``git clone https://github.com/MeredithU/my-website.git``
-2. ``my-website``
+2. ``cd my-website``
 3. ``npm install``
 4. ``gulp`` (This assumes you have npm & Gulp installed globally)
 5. To open a browser window with live-reloading, run ``gulp watch``
