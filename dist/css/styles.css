@@ -5,32 +5,6 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-body:before {
-  background-image: -webkit-linear-gradient(left, transparent 0, #d5eefb 0, #d5eefb 6.17215%, transparent 6.17215%, transparent 8.5298%, #d5eefb 8.5298%, #d5eefb 14.70196%, transparent 14.70196%, transparent 17.05961%, #d5eefb 17.05961%, #d5eefb 23.23176%, transparent 23.23176%, transparent 25.58941%, #d5eefb 25.58941%, #d5eefb 31.76157%, transparent 31.76157%, transparent 34.11922%, #d5eefb 34.11922%, #d5eefb 40.29137%, transparent 40.29137%, transparent 42.64902%, #d5eefb 42.64902%, #d5eefb 48.82117%, transparent 48.82117%, transparent 51.17883%, #d5eefb 51.17883%, #d5eefb 57.35098%, transparent 57.35098%, transparent 59.70863%, #d5eefb 59.70863%, #d5eefb 65.88078%, transparent 65.88078%, transparent 68.23843%, #d5eefb 68.23843%, #d5eefb 74.41059%, transparent 74.41059%, transparent 76.76824%, #d5eefb 76.76824%, #d5eefb 82.94039%, transparent 82.94039%, transparent 85.29804%, #d5eefb 85.29804%, #d5eefb 91.4702%, transparent 91.4702%, transparent 93.82785%, #d5eefb 93.82785%, #d5eefb 100%, transparent 100%);
-  background-image: -moz-linear-gradient(left, transparent 0, #d5eefb 0, #d5eefb 6.17215%, transparent 6.17215%, transparent 8.5298%, #d5eefb 8.5298%, #d5eefb 14.70196%, transparent 14.70196%, transparent 17.05961%, #d5eefb 17.05961%, #d5eefb 23.23176%, transparent 23.23176%, transparent 25.58941%, #d5eefb 25.58941%, #d5eefb 31.76157%, transparent 31.76157%, transparent 34.11922%, #d5eefb 34.11922%, #d5eefb 40.29137%, transparent 40.29137%, transparent 42.64902%, #d5eefb 42.64902%, #d5eefb 48.82117%, transparent 48.82117%, transparent 51.17883%, #d5eefb 51.17883%, #d5eefb 57.35098%, transparent 57.35098%, transparent 59.70863%, #d5eefb 59.70863%, #d5eefb 65.88078%, transparent 65.88078%, transparent 68.23843%, #d5eefb 68.23843%, #d5eefb 74.41059%, transparent 74.41059%, transparent 76.76824%, #d5eefb 76.76824%, #d5eefb 82.94039%, transparent 82.94039%, transparent 85.29804%, #d5eefb 85.29804%, #d5eefb 91.4702%, transparent 91.4702%, transparent 93.82785%, #d5eefb 93.82785%, #d5eefb 100%, transparent 100%);
-  background-image: -ms-linear-gradient(left, transparent 0, #d5eefb 0, #d5eefb 6.17215%, transparent 6.17215%, transparent 8.5298%, #d5eefb 8.5298%, #d5eefb 14.70196%, transparent 14.70196%, transparent 17.05961%, #d5eefb 17.05961%, #d5eefb 23.23176%, transparent 23.23176%, transparent 25.58941%, #d5eefb 25.58941%, #d5eefb 31.76157%, transparent 31.76157%, transparent 34.11922%, #d5eefb 34.11922%, #d5eefb 40.29137%, transparent 40.29137%, transparent 42.64902%, #d5eefb 42.64902%, #d5eefb 48.82117%, transparent 48.82117%, transparent 51.17883%, #d5eefb 51.17883%, #d5eefb 57.35098%, transparent 57.35098%, transparent 59.70863%, #d5eefb 59.70863%, #d5eefb 65.88078%, transparent 65.88078%, transparent 68.23843%, #d5eefb 68.23843%, #d5eefb 74.41059%, transparent 74.41059%, transparent 76.76824%, #d5eefb 76.76824%, #d5eefb 82.94039%, transparent 82.94039%, transparent 85.29804%, #d5eefb 85.29804%, #d5eefb 91.4702%, transparent 91.4702%, transparent 93.82785%, #d5eefb 93.82785%, #d5eefb 100%, transparent 100%);
-  background-image: -o-linear-gradient(left, transparent 0, #d5eefb 0, #d5eefb 6.17215%, transparent 6.17215%, transparent 8.5298%, #d5eefb 8.5298%, #d5eefb 14.70196%, transparent 14.70196%, transparent 17.05961%, #d5eefb 17.05961%, #d5eefb 23.23176%, transparent 23.23176%, transparent 25.58941%, #d5eefb 25.58941%, #d5eefb 31.76157%, transparent 31.76157%, transparent 34.11922%, #d5eefb 34.11922%, #d5eefb 40.29137%, transparent 40.29137%, transparent 42.64902%, #d5eefb 42.64902%, #d5eefb 48.82117%, transparent 48.82117%, transparent 51.17883%, #d5eefb 51.17883%, #d5eefb 57.35098%, transparent 57.35098%, transparent 59.70863%, #d5eefb 59.70863%, #d5eefb 65.88078%, transparent 65.88078%, transparent 68.23843%, #d5eefb 68.23843%, #d5eefb 74.41059%, transparent 74.41059%, transparent 76.76824%, #d5eefb 76.76824%, #d5eefb 82.94039%, transparent 82.94039%, transparent 85.29804%, #d5eefb 85.29804%, #d5eefb 91.4702%, transparent 91.4702%, transparent 93.82785%, #d5eefb 93.82785%, #d5eefb 100%, transparent 100%);
-  background-image: linear-gradient(to left, transparent 0, #d5eefb 0, #d5eefb 6.17215%, transparent 6.17215%, transparent 8.5298%, #d5eefb 8.5298%, #d5eefb 14.70196%, transparent 14.70196%, transparent 17.05961%, #d5eefb 17.05961%, #d5eefb 23.23176%, transparent 23.23176%, transparent 25.58941%, #d5eefb 25.58941%, #d5eefb 31.76157%, transparent 31.76157%, transparent 34.11922%, #d5eefb 34.11922%, #d5eefb 40.29137%, transparent 40.29137%, transparent 42.64902%, #d5eefb 42.64902%, #d5eefb 48.82117%, transparent 48.82117%, transparent 51.17883%, #d5eefb 51.17883%, #d5eefb 57.35098%, transparent 57.35098%, transparent 59.70863%, #d5eefb 59.70863%, #d5eefb 65.88078%, transparent 65.88078%, transparent 68.23843%, #d5eefb 68.23843%, #d5eefb 74.41059%, transparent 74.41059%, transparent 76.76824%, #d5eefb 76.76824%, #d5eefb 82.94039%, transparent 82.94039%, transparent 85.29804%, #d5eefb 85.29804%, #d5eefb 91.4702%, transparent 91.4702%, transparent 93.82785%, #d5eefb 93.82785%, #d5eefb 100%, transparent 100%);
-  content: "";
-  display: inline-block;
-  height: 100%;
-  left: 0;
-  margin: 0 auto;
-  max-width: 68em;
-  opacity: 0.4;
-  pointer-events: none;
-  position: fixed;
-  right: 0;
-  width: 100%;
-  z-index: -1; }
-  @media screen and (max-width: 768px) {
-    body:before {
-      background-image: -webkit-linear-gradient(left, transparent 0, #d5eefb 0, #d5eefb 19.43277%, transparent 19.43277%, transparent 26.85574%, #d5eefb 26.85574%, #d5eefb 46.28851%, transparent 46.28851%, transparent 53.71149%, #d5eefb 53.71149%, #d5eefb 73.14426%, transparent 73.14426%, transparent 80.56723%, #d5eefb 80.56723%, #d5eefb 100%, transparent 100%);
-      background-image: -moz-linear-gradient(left, transparent 0, #d5eefb 0, #d5eefb 19.43277%, transparent 19.43277%, transparent 26.85574%, #d5eefb 26.85574%, #d5eefb 46.28851%, transparent 46.28851%, transparent 53.71149%, #d5eefb 53.71149%, #d5eefb 73.14426%, transparent 73.14426%, transparent 80.56723%, #d5eefb 80.56723%, #d5eefb 100%, transparent 100%);
-      background-image: -ms-linear-gradient(left, transparent 0, #d5eefb 0, #d5eefb 19.43277%, transparent 19.43277%, transparent 26.85574%, #d5eefb 26.85574%, #d5eefb 46.28851%, transparent 46.28851%, transparent 53.71149%, #d5eefb 53.71149%, #d5eefb 73.14426%, transparent 73.14426%, transparent 80.56723%, #d5eefb 80.56723%, #d5eefb 100%, transparent 100%);
-      background-image: -o-linear-gradient(left, transparent 0, #d5eefb 0, #d5eefb 19.43277%, transparent 19.43277%, transparent 26.85574%, #d5eefb 26.85574%, #d5eefb 46.28851%, transparent 46.28851%, transparent 53.71149%, #d5eefb 53.71149%, #d5eefb 73.14426%, transparent 73.14426%, transparent 80.56723%, #d5eefb 80.56723%, #d5eefb 100%, transparent 100%);
-      background-image: linear-gradient(to left, transparent 0, #d5eefb 0, #d5eefb 19.43277%, transparent 19.43277%, transparent 26.85574%, #d5eefb 26.85574%, #d5eefb 46.28851%, transparent 46.28851%, transparent 53.71149%, #d5eefb 53.71149%, #d5eefb 73.14426%, transparent 73.14426%, transparent 80.56723%, #d5eefb 80.56723%, #d5eefb 100%, transparent 100%); } }
-
 nav.sidebar {
   background-color: #ffffff;
   width: 280px;
@@ -99,6 +73,54 @@ nav.sidebar {
             nav.sidebar ul.social li a i {
               padding: 0 25px; } }
 
+section.main-content {
+  background-image: url(../asset/mac-on-desk.jpg);
+  background-size: cover;
+  height: 100%;
+  margin-left: 280px;
+  width: -webkit-calc(100% - 280px);
+  width: calc(100% - 280px);
+  padding: 40px; }
+  @media screen and (max-width: 500px) {
+    section.main-content {
+      padding: 20px; } }
+  @media screen and (max-width: 768px) {
+    section.main-content {
+      margin-left: 0;
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 100%; }
+      section.main-content:last-child {
+        margin-right: 0; } }
+  section.main-content .banner-title {
+    background-color: rgba(255, 255, 255, 0.87);
+    text-align: center;
+    height: 100%;
+    padding: 2.35765%; }
+    section.main-content .banner-title h1,
+    section.main-content .banner-title h3,
+    section.main-content .banner-title h4,
+    section.main-content .banner-title h5 {
+      color: #111111;
+      font-weight: 300;
+      letter-spacing: .1em; }
+    section.main-content .banner-title h1 {
+      font-size: 36px; }
+    section.main-content .banner-title h3 {
+      font-size: 28px;
+      padding-top: 0;
+      text-transform: uppercase; }
+    section.main-content .banner-title h4 {
+      font-size: 20px; }
+    section.main-content .banner-title h5 {
+      font-size: 18px;
+      font-weight: 400;
+      color: #fa8043; }
+    section.main-content .banner-title .img-circle {
+      width: 175px;
+      border-radius: 50%; }
+
 html {
   height: 100%; }
 
@@ -108,38 +130,3 @@ body {
   background-color: #f5f4f2;
   margin: 0;
   height: 100%; }
-  body section.main-content {
-    background-image: url(../asset/mac-on-desk.jpg);
-    background-size: cover;
-    font-weight: 300;
-    height: 100%;
-    margin-left: 280px;
-    width: -webkit-calc(100% - 280px);
-    width: calc(100% - 280px);
-    padding: 2.35765%; }
-    @media screen and (max-width: 768px) {
-      body section.main-content {
-        margin-left: 0;
-        float: left;
-        display: block;
-        margin-right: 7.42297%;
-        width: 100%; }
-        body section.main-content:last-child {
-          margin-right: 0; } }
-    body section.main-content .banner-title {
-      background-color: rgba(17, 17, 17, 0.75);
-      text-align: center;
-      width: -webkit-calc(100% - 30%);
-      width: calc(100% - 30%);
-      margin: 100px auto 0;
-      padding: 2.35765%; }
-      body section.main-content .banner-title h1,
-      body section.main-content .banner-title h3 {
-        color: #ffffff;
-        font-weight: 300;
-        letter-spacing: .1em; }
-      body section.main-content .banner-title h1 {
-        font-size: 36px; }
-      body section.main-content .banner-title h3 {
-        font-size: 28px;
-        text-transform: uppercase; }

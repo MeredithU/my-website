@@ -9,7 +9,7 @@ nav {
 		@include position(fixed, 0px null null 0px);
 		@include pad();
 
-		@include media($mobile) {
+		@include media($tablet) {
 			height: auto;
 
 			@include span-columns(4);
@@ -24,7 +24,7 @@ nav {
 		    @include size(6em auto);
 		    @include margin(3em auto);
 
-		    @include media($mobile) {
+		    @include media($tablet) {
 		    	@include margin(2em auto);
 		    }
 			}
@@ -52,7 +52,7 @@ nav {
 						}
 					}
 
-					@include media($mobile) {
+					@include media($tablet) {
 						padding: 5px 0;
 					}
 
@@ -80,7 +80,7 @@ nav {
 						i {
 							@include padding(0 10px);
 
-							@include media($mobile) {
+							@include media($tablet) {
 								@include padding(0 25px);
 							}
 						}

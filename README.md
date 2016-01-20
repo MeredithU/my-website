@@ -1,4 +1,4 @@
-# My personal website
+# My Personal Website
 
 [Link](http://meredithunderell.com)
 
@@ -19,3 +19,9 @@
 3. ``npm install``
 4. ``gulp`` (This assumes you have npm & Gulp installed globally)
 5. To open a browser window with live-reloading, run ``gulp watch``
+
+### To Do
+
+1. Build out additional pages
+2. Look at using Handlebars or Mustache
+3. Maybe change up the design again? 

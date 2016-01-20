@@ -1,0 +1,63 @@
+section {
+	&.main-content {
+		background-image: url(../asset/mac-on-desk.jpg);
+		background-size: cover;
+		height: 100%;
+		margin-left: $sidebar-desktop-width;
+
+		@include calc(width, "100% - #{$sidebar-desktop-width}");
+		@include padding(40px);
+
+		@include media($mobile) {
+			@include padding(20px);
+		}
+
+		@include media($tablet) {
+			margin-left: 0;
+
+			@include span-columns(4);
+		}
+
+		.banner-title {
+			background-color: rgba(red($white), green($white), blue($white), 0.87);
+			text-align: center;
+			height: 100%;
+
+			@include pad();
+			
+			h1,
+			h3,
+			h4,
+			h5 {
+				color: $black;
+				font-weight: 300;
+				letter-spacing: .1em;
+			}
+
+			h1 {
+				font-size: 36px;
+			}
+
+			h3 {
+				font-size: 28px;
+				padding-top: 0;
+				text-transform: uppercase;
+			}
+
+			h4 {
+				font-size: 20px;
+			}
+
+			h5 {
+				font-size: 18px;
+				font-weight: 400;
+				color: $orange;
+			}
+
+			.img-circle {
+				width: 175px;
+				border-radius: 50%;
+			}
+		}
+	}
+}
